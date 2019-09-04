@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/editTextPading"
+    android:background="@drawable/heating_item"
+    android:padding="@dimen/editTextPading">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/editTextTextSize"
+        android:text="@string/timeOutOnOff"
+        android:layout_weight="10"
+        android:layout_gravity="left|center"/>
+
+    <CheckBox
+        android:id="@+id/onOffCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_weight="1"
+        android:clickable="false"/>
+
+</LinearLayout>

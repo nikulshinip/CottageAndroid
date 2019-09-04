@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/backLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/temperatureItemMarginBottom"
+        android:orientation="vertical"
+        android:background="@drawable/heating_item"
+        android:padding="@dimen/editTextPading">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deviceTemperatureNumberMarningTop"
+            android:layout_gravity="top|left"
+            android:gravity="top|left"
+            android:textSize="@dimen/bigPrefixText"
+            android:textColor="@color/toolBarShadow" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:textSize="@dimen/editTextTextSize" />
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:textSize="@dimen/editTextTextSize" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/adrress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:gravity="bottom|right"
+            android:textSize="@dimen/bigPrefixText"
+            android:textColor="@color/toolBarShadow" />
+
+    </LinearLayout>
+
+</LinearLayout>

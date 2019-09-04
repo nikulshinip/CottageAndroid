@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="dravableMenuWidth">380dp</dimen>
+    
+    <!-- for Device -->
+    <dimen name="deviceDS2408DinDoutPadingTopBottom">5dp</dimen>
+</resources>

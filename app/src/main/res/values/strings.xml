@@ -1,0 +1,87 @@
+<resources>
+
+    <string name="app_name">Cottage</string>
+    <string name="line">Line</string>
+    <string name="setting">Настройки</string>
+    <string name="heating">Отопление</string>
+    <string-array name="menu">
+        <item>Отопление,heating</item>
+        <item>Температура,temperature</item>
+        <item>Оборудование,network</item>
+        <item>Настройки,setting</item>
+        <item>Выход,close</item>
+    </string-array>
+    <!-- for Setting -->
+    <string name="hostName">Адрес и порт сервера</string>
+    <string name="userName">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="checkConnect">Проверить соединение</string>
+    <string name="save">Сохранить</string>
+    <string name="connectSuses">Соединение установленно</string>
+    <string name="connectBad">Сервер не найден</string>
+    <!-- for Heating -->
+    <string name="refresh">Обновить</string>
+    <string name="kotel">Вкл./Откл. системы отопления</string>
+    <string name="on_off_din">Главный пускатель</string>
+    <string name="overheating">Котел Вкл./Откл.</string>
+    <string name="pump">Насос Вкл./Откл.</string>
+    <string name="temperature">Показания температур</string>
+    <string name="t_boiler">Температура котла</string>
+    <string name="t_obratka">Температура обратки</string>
+    <string name="t_out">Температура выхода котла</string>
+    <string name="t_floor">Температура комнаты</string>
+    <string name="celciy">°C</string>
+    <string name="powerRegulation">Мошность котла</string>
+    <string name="autoPowerRegulation">Автоматическая регулировка мощности</string>
+    <string name="manualPowerRegulation">Ручная регулировка мощности</string>
+    <string name="kv">Квт</string>
+    <string name="algoritm">Алгоритм работы котла</string>
+    <string name="algoritm1">По температуре комнаты</string>
+    <string name="algoritm2">По температуре обратки</string>
+    <string name="timeoutTabl">Таймауты</string>
+    <string name="apply">Применить</string>
+    <string name="settingError">Ошибка чтения настроек, проверте настройки приложения.</string>
+    <string name="updateError">Ошибка получения данных с сервера, проверте соединение и настройки.</string>
+    <string name="applyOk">Настройки применены</string>
+    <string name="applyFalse">Ошибка отправки настроек</string>
+    <!-- for HeatingTimeout -->
+    <string name="title_activity_heating_timeout">Таймауты котла</string>
+    <string name="timeOutOnOff">Вкл./Откл. таймауты</string>
+    <string name="timeOutAdd">Добавить</string>
+    <string name="timeOutIn">Начало</string>
+    <string name="timeOutOut">Конец</string>
+    <string name="timeOutComment">Коментарий</string>
+    <string name="editTitle">Редактировать запись</string>
+    <string name="editMessage">Изменение записи</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="deleteTitle">Удаление строки</string>
+    <string name="deleteMessage">Вы действительно хотите удалить строку?</string>
+    <string name="deleteYes">Строка удаленна</string>
+    <string name="deleteNo">Возникла ошибка при попытке удалить строку</string>
+    <string name="editFrom">Начало</string>
+    <string name="editTo">Конец</string>
+    <string name="editComment">Коментарий</string>
+    <string name="cansel">Отменить</string>
+    <string name="editError">Возникла ошибка при попытке сохранить исправленную строку</string>
+    <string name="editTrue">Исправленная строка сохранена</string>
+    <string name="addString">Добавление строки</string>
+    <string name="add">Добавить</string>
+    <string name="addTrue">Строка добавлена</string>
+    <string name="addError">Возникла ошибка при попытке добавить строку</string>
+    <string name="title_activity_temperature">Temperature</string>
+
+    <!-- temperature -->
+    <string name="temperatureTitle">Показаня датчиков температур</string>
+
+    <!-- device -->
+    <string name="deviceTitle">Оборудование</string>
+    <string name="din1">Din1</string>
+    <string name="din2">Din2</string>
+    <string name="din3">Din3</string>
+    <string name="din4">Din4</string>
+    <string name="dout1">Dout1</string>
+    <string name="dout2">Dout2</string>
+    <string name="dout3">Dout3</string>
+
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/backLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/temperatureItemMarginBottom"
+        android:orientation="vertical"
+        android:background="@drawable/heating_item"
+        android:padding="@dimen/editTextPading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/deviceDS2408NumberMarningTop"
+                android:layout_marginRight="@dimen/deviceDS2408NumberMarningRight"
+                android:layout_gravity="top|left"
+                android:gravity="top|left"
+                android:textSize="@dimen/bigPrefixText"
+                android:textColor="@color/toolBarShadow" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/temperatureItemMarginBottom"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:textSize="@dimen/editTextTextSize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/din1"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/din1"/>
+
+            <TextView
+                android:id="@+id/din2"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/din2"/>
+
+            <TextView
+                android:id="@+id/din3"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/din3"/>
+
+            <TextView
+                android:id="@+id/din4"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/din4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/editTextRadius">
+
+            <TextView
+                android:id="@+id/dout1"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/dout1"/>
+
+            <TextView
+                android:id="@+id/dout2"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/dout2"/>
+
+            <TextView
+                android:id="@+id/dout3"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/vertical_margin"
+                android:paddingTop="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:paddingBottom="@dimen/deviceDS2408DinDoutPadingTopBottom"
+                android:background="@drawable/heating_power_lamp_no"
+                android:textColor="@color/backGroundColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/dout3"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/adrress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="@dimen/deviceDS2408AddressMarningTop"
+            android:gravity="bottom|right"
+            android:textSize="@dimen/bigPrefixText"
+            android:textColor="@color/toolBarShadow"
+            android:text="29.9EAA14000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

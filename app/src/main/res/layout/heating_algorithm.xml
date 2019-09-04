@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/editTextPading"
+    android:background="@drawable/heating_item"
+    android:padding="@dimen/editTextPading">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/editTextTextSize"
+        android:text="@string/algoritm"
+        android:layout_gravity="left|center"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/algoritm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/algoritm1"
+            android:textSize="@dimen/smallText"
+            android:textColor="@color/menuTextColor"
+            android:clickable="false"
+            android:onClick="onCheckAlgoritm1"/>
+
+        <RadioButton
+            android:id="@+id/algoritm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/algoritm2"
+            android:textSize="@dimen/smallText"
+            android:textColor="@color/menuTextColor"
+            android:clickable="false"
+            android:onClick="onCheckAlgoritm2"/>
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/algoritm1Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/algoritm1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"/>
+
+        <SeekBar
+            android:id="@+id/algoritm1SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="35"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/algoritm2Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/algoritm2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"/>
+
+        <SeekBar
+            android:id="@+id/algoritm2SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

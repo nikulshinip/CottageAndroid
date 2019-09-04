@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="@dimen/zero"
+    android:shape="rectangle">
+    <stroke android:width="@dimen/lineSize"
+        android:color="@color/menuItemPushColor"/>
+    <corners android:radius="@dimen/editTextRadius" />
+    <gradient
+        android:startColor="@color/textEditStartGradient"
+        android:endColor="@color/textEditEndGradient"
+        android:type="linear"
+        android:angle="270"/>
+</shape>

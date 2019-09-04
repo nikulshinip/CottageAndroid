@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/editTextPading"
+    android:background="@drawable/heating_item"
+    android:padding="@dimen/editTextPading">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/editTextTextSize"
+            android:text="@string/kotel"
+            android:layout_gravity="left|center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/lineSize">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/smallText"
+                    android:text="@string/on_off_din"/>
+
+                <ImageView
+                    android:layout_width="@dimen/lamp"
+                    android:layout_height="@dimen/lamp"
+                    android:id="@+id/onOffDin"
+                    android:layout_marginLeft="@dimen/lamp"
+                    android:src="@drawable/heating_lamp_no"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/smallText"
+                    android:text="@string/overheating"/>
+
+                <ImageView
+                    android:layout_width="@dimen/lamp"
+                    android:layout_height="@dimen/lamp"
+                    android:id="@+id/overheating"
+                    android:layout_marginLeft="@dimen/lamp"
+                    android:src="@drawable/heating_lamp_no"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/smallText"
+                    android:text="@string/pump"/>
+
+                <ImageView
+                    android:layout_width="@dimen/lamp"
+                    android:layout_height="@dimen/lamp"
+                    android:id="@+id/pump"
+                    android:layout_marginLeft="@dimen/lamp"
+                    android:src="@drawable/heating_lamp_no"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/onOffCheckBox"
+        android:layout_gravity="right|center"
+        android:layout_weight="1"
+        android:clickable="false"/>
+
+</LinearLayout>

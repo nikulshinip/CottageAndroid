@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolBarColor">#113131</color>
+    <color name="toolBarShadow">#33b5e5</color>
+    <color name="drawableMenuColor">#1e3e3e</color>
+    <color name="menuItemPushColor">#9e3e3e</color>
+    <color name="backGroundColor">#222222</color>
+    <color name="menuTextColor">#ffffff</color>
+    <!-- for setting -->
+    <color name="textEditStartGradient">#cccccc</color>
+    <color name="textEditEndGradient">#ffffff</color>
+    <color name="buttomStartEndGradient">#858585</color>
+    <color name="buttomCenterGradient">#ffffff</color>
+    <color name="buttomStartEndGradientFocused">#8585f5</color>
+    <color name="buttomStartEndGradientPressed">#f54545</color>
+    <color name="shadowProgresBar">#cc000000</color>
+    <!-- for heating -->
+    <color name="itemStartGradient">#7733b5e5</color>
+    <color name="itemEndGradient">#2233b5e5</color>
+    <color name="lampOn">#00ff00</color>
+    <color name="lampOnStroke">#007000</color>
+    <color name="lampOff">#ff0000</color>
+    <color name="lampOffStroke">#700000</color>
+    <color name="lampNo">#ffff00</color>
+    <color name="lampNoStroke">#e4e400</color>
+    <!-- for heating_timeout -->
+    <color name="none">#00ffffff</color>
+    <color name="message">#3385e5</color>
+    <!-- for device -->
+    <color name="itemStrokeRed">#770000</color>
+    <color name="itemStartGradientRed">#77770000</color>
+    <color name="itemEndGradientRed">#22770000</color>
+    <color name="itemStrokeGreen">#007700</color>
+    <color name="itemStartGradientGreen">#77007700</color>
+    <color name="itemEndGradientGreen">#22007700</color>
+    <color name="itemStrokeYellow">#ffff00</color>
+    <color name="itemStartGradientYellow">#77ffff00</color>
+    <color name="itemEndGradientYellow">#22ffff00</color>
+</resources>

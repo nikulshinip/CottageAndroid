@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolBarShadow">
+
+    <TextView
+        android:id="@+id/dialogMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/lineSize"
+        android:textColor="@color/menuTextColor"
+        android:textSize="@dimen/smallText"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/menuTextColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/editFrom"/>
+
+            <EditText
+                android:id="@+id/fromEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/menuMargin"
+                android:minEms="@integer/dialogEditTextMinEMS"
+                android:maxEms="@integer/dialogEditTextMaxEMS"
+                android:layout_gravity="left"
+                android:inputType="time"
+                android:background="@drawable/text_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/menuTextColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/editTo"/>
+
+            <EditText
+                android:id="@+id/toEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/menuMargin"
+                android:minEms="@integer/dialogEditTextMinEMS"
+                android:maxEms="@integer/dialogEditTextMaxEMS"
+                android:layout_gravity="left"
+                android:inputType="time"
+                android:background="@drawable/text_edit"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/menuTextColor"
+                android:textSize="@dimen/smallText"
+                android:text="@string/editComment"/>
+
+            <EditText
+                android:id="@+id/commentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/menuMargin"
+                android:minEms="@integer/dialogEditTextMinEMS"
+                android:maxEms="@integer/dialogEditTextMaxEMS"
+                android:layout_gravity="left"
+                android:inputType="text"
+                android:background="@drawable/text_edit"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

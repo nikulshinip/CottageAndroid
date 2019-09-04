@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="vertical_margin">7dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="lineSize">2dp</dimen>
+    <dimen name="menuTextSize">8pt</dimen>
+    <dimen name="dravableMenuWidth">150dp</dimen>
+    <dimen name="menuMargin">8dp</dimen>
+
+    <!-- For Setting -->
+    <dimen name="editTextLayoutMargin">52dp</dimen>
+    <dimen name="editTextPading">7dp</dimen>
+    <dimen name="editTextTextSize">8pt</dimen>
+    <dimen name="editTextRadius">5dp</dimen>
+    <dimen name="progresBarSize">80dp</dimen>
+
+    <!-- For Heating -->
+    <dimen name="smallText">6pt</dimen>
+    <dimen name="lamp">17dp</dimen>
+    <dimen name="powerLampWidth">25dp</dimen>
+    <dimen name="powerLampHeigh">10dp</dimen>
+    <integer name="dialogEditTextMinEMS">7</integer>
+    <integer name="dialogEditTextMaxEMS">8</integer>
+
+    <!-- For Temperature -->
+    <dimen name="prefixText">4pt</dimen>
+    <dimen name="temperatureNumberMarginTop">-12dp</dimen>
+    <dimen name="temperatureIcoSize">24dp</dimen>
+    <dimen name="temperatureItemMarginBottom">3dp</dimen>
+
+    <!-- For Device -->
+    <dimen name="deviceTemperatureNumberMarningTop">-4dp</dimen>
+    <dimen name="deviceDS2408NumberMarningTop">-12dp</dimen>
+    <dimen name="deviceDS2408NumberMarningRight">5dp</dimen>
+    <dimen name="deviceDS2408AddressMarningTop">2dp</dimen>
+    <dimen name="deviceDS2408DinDoutPadingTopBottom">2dp</dimen>
+    <dimen name="bigPrefixText">5pt</dimen>
+
+</resources>

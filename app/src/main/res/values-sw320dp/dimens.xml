@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="dravableMenuWidth">220dp</dimen>
+    <dimen name="toolBarSize">30dp</dimen>
+</resources>
